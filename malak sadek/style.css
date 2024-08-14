@@ -1,0 +1,133 @@
+.container {
+    position: relative;
+    width: 1100px;
+    height: 800px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    }
+    .container img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    }
+    .container .background-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    }
+    .container .overlay-image {
+    position: absolute;
+    top: 46.5%;
+    left: 10%;
+    transform: translateY(-50%);
+    width: 400px;
+    height: 602px;
+    left:20px;
+    }
+    .container .top-image {
+    position: absolute;
+    top: 300px;
+    left: 120px;
+    width: 200px;
+    height: auto; }
+  
+    .text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    }
+    .carousel-dots {
+    position: absolute;
+    bottom: 150px;
+    left: 20%;
+    transform: translateX(-50%);
+    z-index: 2;
+    }
+    .dot {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+    .dot.active {
+    background-color: #fff;
+    }
+    .right-section {
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    transform: translateY(-50%);
+    max-height: 470px;
+    }
+    .logo {
+    width: 70px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    }
+    h2 {
+    margin-bottom: 0rem;
+    }
+    p {
+    font-size: 0.9rem;
+    color: #666;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"] {
+    width: 70%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    }
+    .right-section form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 10px;
+    }
+    .checkboxes{
+    margin-bottom:10px;
+    }
+    .checkboxes label{
+    display: flex;
+    margin-bottom: 5px;
+    }
+    .x{
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+    width:100%
+    }
+    button{
+    
+    margin-bottom: 10px;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color:rgba(11, 65, 230, 0.937);
+    color: white;
+    cursor:pointer;
+    }
+    .x button{
+    width: 300px;
+    }
+    .y{
+      display:flex;
+      gap:10px;
+    width:100%;
+    padding-top:50px ;
+    }
+   
